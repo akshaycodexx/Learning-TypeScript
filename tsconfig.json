@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "rootDir": "./",
+    "outDir": "./output",
+
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ESNext", "DOM"],
+
+    "sourceMap": false,
+    "declaration": false,
+    "removeComments": true,
+
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "skipLibCheck": true
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "output"]
+}
